@@ -131,7 +131,8 @@ def load_module(shortname):
         # support for uniborg
         sys.modules["uniborg.util"] = userbot.utils
         mod.Config = Config
-        mod.borg = bot
+        mod.borg = bot 
+        mod.mbl = bot 
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
@@ -209,7 +210,7 @@ def admin_cmd(pattern=None, **args):
 
     return events.NewMessage(**args)
 
-def mellow_cmd(pattern=None, **args):
+def mbl_cmd(pattern=None, **args):
     args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
