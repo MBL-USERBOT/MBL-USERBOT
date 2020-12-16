@@ -1,7 +1,7 @@
 {
-  "name": "MARSHMALLOW Userbot",
+  "name": "MBL Userbot",
   "description": "A Bot for Security, Management and Fun",
-  "logo": "https://telegra.ph/file/815e018dc949131ed9118.jpg ",
+  "logo": "https://telegra.ph/file/ed67b486d36732940275c.jpg ",
 
 
 
@@ -33,7 +33,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @the_speedy_speedster",
+      "description": "Fill your Full name or Username like @Melloxd",
       "value": "",
       "required": false
     },
@@ -44,12 +44,12 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/815e018dc949131ed9118.jpg",
+      "value": "https://telegra.ph/file/ed67b486d36732940275c.jpg",
       "required": false
     },
      "ALIVE_PIC": {
       "description": "put here any telegraph media link for Media to show with .alive Command",
-      "value": "https://telegra.ph/file/815e018dc949131ed9118.jpg",
+      "value": "https://telegra.ph/file/ed67b486d36732940275c.jpg",
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
