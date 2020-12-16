@@ -6,10 +6,10 @@ thx to respective @sppidy sor
 
 import asyncio
 
-from userbot.utils import mellow_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(mellow_cmd(pattern="watt"))
+@borg.on(mbl_cmd(pattern="watt"))
 async def _(event):
 
     if event.fwd_from:

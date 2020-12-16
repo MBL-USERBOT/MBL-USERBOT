@@ -6,12 +6,12 @@ Available Commands:
 
 import emoji
 from googletrans import Translator
-from userbot.utils import mellow_cmd
+from userbot.utils import mbl_cmd
 from telethon import events
 
 
 
-@borg.on(mellow_cmd(pattern="tr ?(.*)"))
+@borg.on(mbl_cmd(pattern="tr ?(.*)"))
 @borg.on(events.NewMessage(pattern=r"\.tr ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:

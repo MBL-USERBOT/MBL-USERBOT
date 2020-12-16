@@ -5,7 +5,7 @@
 
 from telethon.tl.types import MessageMediaPhoto
 import os, urllib, requests, re, asyncio
-from userbot.utils import mellow_cmd
+from userbot.utils import mbl_cmd
 
 
 Marshmallow = Config.DEEP_AI if Config.DEEP_AI else "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
@@ -13,7 +13,7 @@ Marshmallow = Config.DEEP_AI if Config.DEEP_AI else "quickstart-QUdJIGlzIGNvbWlu
 Deep_ai ={token} 
 """
 
-@bot.on(mellow_cmd(pattern="enc ?(.*)", outgoing=True))#hehe
+@bot.on(mbl_cmd(pattern="enc ?(.*)", outgoing=True))#hehe
 async def _(event):                   
     reply = await event.get_reply_message()
     if not reply:
