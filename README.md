@@ -27,7 +27,7 @@
 
 
 
-<p align="centre"><a href="https://t.me/marshmellowsupport?template=https://t.me/MBL_GANG_SUPORT_GROUP"> <img src="https://telegra.ph/file/099fb8fae24dfcc0c326e.jpg" alt="JOIN NOW "/></a></p>
+<p align="centre"><a href="https://t.me/MBL_GANG_SUPORT_GROUP?template=https://t.me/MBL_GANG_SUPORT_GROUP"> <img src="https://telegra.ph/file/099fb8fae24dfcc0c326e.jpg" alt="JOIN NOW "/></a></p>
 
 
 
@@ -39,7 +39,7 @@
 
 
 
-<p align="centre"><a href="https://t.me/marshmellowuserbot?template=https://t.me/MBL_GANG_USER_BOT"> <img src="https://telegra.ph/file/099fb8fae24dfcc0c326e.jpg" alt="JOIN NOW "/></a></p>
+<p align="centre"><a href="https://t.me/MBL_GANG_USER_BOT?template=https://t.me/MBL_GANG_USER_BOT"> <img src="https://telegra.ph/file/099fb8fae24dfcc0c326e.jpg" alt="JOIN NOW "/></a></p>
 
 
 
