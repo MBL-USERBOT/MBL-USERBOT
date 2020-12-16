@@ -14,10 +14,10 @@ document
 cancel"""
 
 import asyncio
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
  
  
-@borg.on(admin_cmd("sca ?(.*)"))
+@borg.on(mbl_cmd("sca ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

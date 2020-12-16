@@ -2,10 +2,10 @@
 # (c) @INF1N17Y
 
 from telethon import events
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 
-@borg.on(admin_cmd("mention (.*)"))
+@borg.on(mbl_cmd("mention (.*)"))
 async def _(event):
 	if event.fwd_from:
 		return	

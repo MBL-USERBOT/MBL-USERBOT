@@ -9,13 +9,13 @@ import requests
 
 from telethon import events
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
 
 
 
-@borg.on(admin_cmd("screencapture (.*)"))
+@borg.on(mbl_cmd("screencapture (.*)"))
 
 async def _(event):
 

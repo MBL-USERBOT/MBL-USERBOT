@@ -9,10 +9,10 @@ from telethon import events
 import asyncio
 import os
 import sys
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 
-@borg.on(admin_cmd(pattern="restart"))
+@borg.on(mbl_cmd(pattern="restart"))
 async def _(event):
     await event.edit("Restarting [⏳⏳] ...")
     await asyncio.sleep(2)
@@ -25,7 +25,7 @@ async def _(event):
     quit()
 
 
-@borg.on(admin_cmd(pattern="shutdown"))
+@borg.on(mbl_cmd(pattern="shutdown"))
 async def _(event):
     if event.fwd_from:
         return

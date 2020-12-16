@@ -1,9 +1,9 @@
 import asyncio
 from asyncio import wait
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(admin_cmd("repeat ?(.*)"))
+@borg.on(mbl_cmd("repeat ?(.*)"))
 async def _(event):
     message = event.text[10:]
     count = int(event.text[8:10])

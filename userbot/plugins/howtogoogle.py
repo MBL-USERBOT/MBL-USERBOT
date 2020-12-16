@@ -9,10 +9,10 @@ from telethon import events
 import os
 import requests
 import json
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(admin_cmd("ggl (.*)"))
+@borg.on(mbl_cmd("ggl (.*)"))
 async def _(event):
     if event.fwd_from:
         return

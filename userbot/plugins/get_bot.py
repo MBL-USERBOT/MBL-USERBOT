@@ -2,10 +2,10 @@
 Syntax: .get_bot"""
 from telethon import events
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(admin_cmd("get_bot ?(.*)"))
+@borg.on(mbl_cmd("get_bot ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -9,9 +9,9 @@ import asyncio
 import os
 import subprocess
 import sys
-from uniborg.util import admin_cmd, humanbytes, progress, time_formatter
+from uniborg.util import mbl_cmd, humanbytes, progress, time_formatter
 
-@borg.on(admin_cmd(pattern=r"getc"))
+@borg.on(mbl_cmd(pattern=r"getc"))
 async def get_media(event):
     if event.fwd_from:
         return
@@ -47,7 +47,7 @@ async def get_media(event):
              
              
              
-@borg.on(admin_cmd(pattern=r"geta"))
+@borg.on(mbl_cmd(pattern=r"geta"))
 async def get_media(event):
     if event.fwd_from:
         return

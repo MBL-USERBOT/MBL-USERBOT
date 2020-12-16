@@ -11,9 +11,9 @@ from telethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
-@borg.on(admin_cmd("bigoof"))
+@borg.on(mbl_cmd("bigoof"))
 async def _(event):
     if event.fwd_from:
         return

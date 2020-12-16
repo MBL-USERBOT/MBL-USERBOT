@@ -15,13 +15,13 @@ from datetime import datetime
 
 from gtts import gTTS
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
 
 
 
-@borg.on(admin_cmd(pattern="tts (.*)"))
+@borg.on(mbl_cmd(pattern="tts (.*)"))
 
 async def _(event):
 

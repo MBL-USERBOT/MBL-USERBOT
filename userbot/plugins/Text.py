@@ -2,12 +2,12 @@
 #keep credits if you are gonna kang it lol,you noob ,stupid,madafucking,avengers_leader,the copy paster
 import asyncio
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(admin_cmd(pattern="text (.*)"))
+@borg.on(mbl_cmd(pattern="text (.*)"))
 async def _(event):
     name = event.pattern_match.group(1)
     if event.fwd_from:

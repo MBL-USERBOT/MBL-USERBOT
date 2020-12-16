@@ -7,12 +7,12 @@ By:- @Zero_cool7870
 
 """
 
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 import asyncio
 import os
 
 
-@borg.on(admin_cmd(pattern="ls ?(.*)"))
+@borg.on(mbl_cmd(pattern="ls ?(.*)"))
 async def lst(event):
 	if event.fwd_from:
 		return

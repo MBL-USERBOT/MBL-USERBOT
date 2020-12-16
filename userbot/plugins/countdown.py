@@ -4,7 +4,7 @@ from telethon import events
 
 from datetime import datetime
 
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 import importlib.util
 
@@ -18,7 +18,7 @@ import importlib.util
 
 
 
-@borg.on(admin_cmd(pattern='(f?c)d '))
+@borg.on(mbl_cmd(pattern='(f?c)d '))
 
 async def timer_blankx(e):
 
@@ -45,7 +45,7 @@ async def timer_blankx(e):
   await e.edit(txt + 'NaN')
 
 
-@borg.on(admin_cmd(pattern='(f?s)cd '))
+@borg.on(mbl_cmd(pattern='(f?s)cd '))
 
 async def timer_blankx(e):
 

@@ -4,9 +4,9 @@
 from telethon import events
 import asyncio
 from collections import deque
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
-@borg.on(admin_cmd(pattern="earth"))
+@borg.on(mbl_cmd(pattern="earth"))
 async def _(event):
 	if event.fwd_from:
 		return

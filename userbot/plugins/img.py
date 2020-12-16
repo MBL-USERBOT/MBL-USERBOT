@@ -17,13 +17,13 @@ import shutil
 
 from re import findall
 
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
 
 
 
-@borg.on(admin_cmd(pattern="img ?(.*)"))
+@borg.on(mbl_cmd(pattern="img ?(.*)"))
 
 async def img_sampler(event):
 

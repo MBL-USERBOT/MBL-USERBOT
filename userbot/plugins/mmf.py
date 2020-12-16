@@ -1,6 +1,6 @@
 
 
-# Ported here with admin_cmd to DC By @hellboi_atul
+# Ported here with mbl_cmd to DC By @hellboi_atul
 # Kangers keep credits else gey
 # Thanks to userge && Priyam Kalra
 
@@ -11,13 +11,13 @@
 from PIL import Image, ImageFont, ImageDraw
 
 import textwrap, os
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
 
 
 
-@borg.on(admin_cmd(pattern=r"mmf ?(.*)"))
+@borg.on(mbl_cmd(pattern=r"mmf ?(.*)"))
 
 async def handler(event):
 

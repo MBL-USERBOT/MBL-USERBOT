@@ -1,61 +1,61 @@
 """ Plugin By @chsaiujwal on telegram """
 """ Plugin By @chsaiujwal on telegram """
 
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 from asyncio import wait
 
 from telethon import events
 
 
-@borg.on(admin_cmd(pattern=r"hola"))
+@borg.on(mbl_cmd(pattern=r"hola"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("╔┓┏╦━╦┓╔┓╔━━╗\n║┗┛║┗╣┃║┃║X X  ║\n║┏┓║┏╣┗╣┗╣╰╯║\n╚┛┗╩━╩━╩━╩━━╝")
 
-@borg.on(admin_cmd(pattern=r"plus"))
+@borg.on(mbl_cmd(pattern=r"plus"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("╭━━━━━━━━━━━━━╮\n┃╱╱╱╱╱╱╱╱┏┓╱╱╱┃\n┃╱╱╱┏┓╱╱┏╯┃╱╱╱┃\n┃╱╱┏┛┗┓╱┗┓┃╱╱╱┃\n┃╱╱┗┓┏┛╱╱┃┃╱╱╱┃\n┃╱╱╱┗┛╱╱╱┃┃╱╱╱┃\n┃╱╱╱╱╱╱╱╱┗┛╱╱╱┃\n╰━━━━━━━━━━━━━╯")
-@borg.on(admin_cmd(pattern=r"yes"))
+@borg.on(mbl_cmd(pattern=r"yes"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("┏┓┏┓╭━━┓╭━━╮▕▔▔▏\n┃┃┃┃┃┏━┛┃╭━┛▕┈┈▏\n┃╰╯┃┃┗━┓┃╰━╮▕┈┈▏\n╰━╮┃┃┏━┛╰━╮┃┈╲╱┈\n┏━╯┃┃┗━┓┏━╯┃┈╭╮┈\n╰━━╯╰━━┛╰━━╯┈╰╯┈")
 
-@borg.on(admin_cmd(pattern=r"lol"))
+@borg.on(mbl_cmd(pattern=r"lol"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("▂▂╱▔▔▔▔▔▔▔▔▔▔▔▔╲\n╲▂┈╭╮┈┈╭━━╮╭╮┈┈▕\n┈┈▏┃┃┈┈┃╭╮┃┃┃┈┈▕\n┈┈▏┃╰━╮┃╰╯┃┃╰━╮▕\n┈┈▏╰━━╯╰━━╯╰━━╯▕\n┈┈╲▂▂▂▂▂▂▂▂▂▂▂▂╱")
     
     
-@borg.on(admin_cmd(pattern=r"android"))
+@borg.on(mbl_cmd(pattern=r"android"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("┈┈┈╲┈┈┈┈╱┈┈┈┈┈┈┈\n┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈\n┈┈┃┈▇┈┈▇┈┃┈┈┈┈┈┈\n╭╮┣━━━━━━┫╭╮┈┈┈┈\n┃┃┃┈┈┈┈┈┈┃┃┃┈┈┈┈\n╰╯┃┈┈┈┈┈┈┃╰╯┈┈┈┈\n┈┈╰┓┏━━┓┏╯┈┈┈┈┈┈\n┈┈┈╰╯┈┈╰╯┈┈┈┈┈┈┈")
-@borg.on(admin_cmd(pattern=r"hmm"))
+@borg.on(mbl_cmd(pattern=r"hmm"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("┈┈╱▔▔▔▔▔╲┈┈┈HM┈HM\n┈╱┈┈╱▔╲╲╲▏┈┈┈HMMM\n╱┈┈╱━╱▔▔▔▔▔╲━╮┈┈\n▏┈▕┃▕╱▔╲╱▔╲▕╮┃┈┈\n▏┈▕╰━▏▊▕▕▋▕▕━╯┈┈\n╲┈┈╲╱▔╭╮▔▔┳╲╲┈┈┈\n┈╲┈┈▏╭━━━━╯▕▕┈┈┈\n┈┈╲┈╲▂▂▂▂▂▂╱╱┈┈┈\n┈┈┈┈▏┊┈┈┈┈┊┈┈┈╲┈\n┈┈┈▏┊┈┈┈┈┊▕╲┈┈╲\n┈╱▔╲▏┊┈┈┈┈┊▕╱▔╲▕\n┈▏┈┈┈╰┈┈┈┈╯┈┈┈▕▕\n┈╲┈┈┈╲┈┈┈┈╱┈┈┈╱┈╲\n┈┈╲┈┈▕▔▔▔▔▏┈┈╱╲╲╲▏\n┈╱▔┈┈▕┈┈┈┈▏┈┈▔╲▔▔\n┈╲▂▂▂╱┈┈┈┈╲▂▂▂╱┈")
     
-@borg.on(admin_cmd(pattern=r"happybirthday"))
+@borg.on(mbl_cmd(pattern=r"happybirthday"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("¸.•°*”˜˜”*°•.¸☆ ★ ☆¸.•°*”˜˜”*°\n╔╗╔╦══╦═╦═╦╗╔╗ ★ ★ \n║╚╝║══║═║═║╚╝║ ☆¸.•° \n║╔╗║╔╗║╔╣╔╩╗╔╝ ★\n╚╝╚╩╝╚╩╝╚╝═╚╝★Birthday!★")
     
-@borg.on(admin_cmd(pattern=r"WTF"))
+@borg.on(mbl_cmd(pattern=r"WTF"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("┏┓┏┓┏┓┏━━━┓┏━━━┓\n┃┃┃┃┃┃┗┓╱┏┛┃╱┏━┛\n┃┗┛┗┛┃┈┃╱┃┈┃╱┗┓\n┃╱╱╱╱┃┈┃╱┃┈┃╱┏┛\n┗━━━━┛◯┗━┛◯┗━┛◯")
  
-@borg.on(admin_cmd(pattern=r"lmao"))
+@borg.on(mbl_cmd(pattern=r"lmao"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -79,7 +79,7 @@ async def spammer(e):
                 LOGGER_GROUP, "#SPAM \n\n" "Spam was executed successfully"
             )
 
-@borg.on(admin_cmd(pattern=r"no"))
+@borg.on(mbl_cmd(pattern=r"no"))
 async def hi(event):
     if event.fwd_from:
         return

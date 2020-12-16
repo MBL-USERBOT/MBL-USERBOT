@@ -8,14 +8,14 @@ from telethon import events
 
 import asyncio
 
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 from userbot import AUTONAME
 
 
 DEFAULTUSER = str(AUTONAME) if AUTONAME else "Marshmellow User"
 
-@borg.on(admin_cmd(pattern=r"deploy"))
+@borg.on(mbl_cmd(pattern=r"deploy"))
 
 async def _(event):
 

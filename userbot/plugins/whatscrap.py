@@ -1,9 +1,9 @@
 """Syntax: .whatscrapp as reply to a message copied from @WhatsCRApp"""
 from telethon import events
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 
-@borg.on(admin_cmd(pattern="whatscrapp"))
+@borg.on(mbl_cmd(pattern="whatscrapp"))
 async def _(event):
     if event.fwd_from:
         return

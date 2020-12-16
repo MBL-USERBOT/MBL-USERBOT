@@ -3,11 +3,11 @@ from telethon import events
 
 import asyncio
 
-from uniborg.util import admin_cmd
+from uniborg.util import mbl_cmd
 
 
 
-@borg.on(admin_cmd(pattern=r"quickheal"))
+@borg.on(mbl_cmd(pattern=r"quickheal"))
 
 async def _(event):
 

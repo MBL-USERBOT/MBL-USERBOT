@@ -8,10 +8,10 @@ import os
 import requests
 import time
 from datetime import datetime
-from uniborg.util import admin_cmd, progress
+from uniborg.util import mbl_cmd, progress
 
 
-@borg.on(admin_cmd(pattern="ma ?(.*)", allow_sudo=True))
+@borg.on(mbl_cmd(pattern="ma ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return

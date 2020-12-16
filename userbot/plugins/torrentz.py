@@ -4,10 +4,10 @@ import cfscrape  # https://github.com/Anorov/cloudflare-scrape
 import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
-from userbot.utils import admin_cmd, humanbytes
+from userbot.utils import mbl_cmd, humanbytes
 
 
-@borg.on(admin_cmd(  # pylint:disable=E0602
+@borg.on(mbl_cmd(  # pylint:disable=E0602
     pattern="movie (torrentz2\.eu|idop\.se) (.*)"
 ))
 async def _(event):

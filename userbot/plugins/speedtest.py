@@ -5,10 +5,10 @@ from telethon import events
 from datetime import datetime
 import io
 import speedtest
-from userbot.utils import admin_cmd
+from userbot.utils import mbl_cmd
 
 
-@borg.on(admin_cmd("speedtest ?(.*)"))
+@borg.on(mbl_cmd("speedtest ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
