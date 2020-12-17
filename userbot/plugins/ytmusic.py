@@ -56,7 +56,7 @@ async def _(event):
         performer=thums,
         supports_streaming=True,
     )
-    await myself_𐌑𐌀𐍂𐍃𐋏‿𐌑𐌄𐌋𐌋𐍈.edit("`Song Uploaded. By (C) @marshmellowsupport`")
+    await myself_𐌑𐌀𐍂𐍃𐋏‿𐌑𐌄𐌋𐌋𐍈.edit("`Song Uploaded. By (C) @MBL_GANG_SUPORT_GROUP`")
     for files in (sedlyf, km):
         if files and os.path.exists(files):
             os.remove(files)
