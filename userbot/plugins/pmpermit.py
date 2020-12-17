@@ -26,7 +26,7 @@ PM_ON_OFF = Config.PM_DATA
 
 
 DEFAULTUSER = (
-               str(ALIVE_NAME) if ALIVE_NAME else "Marshmellow User"
+               str(ALIVE_NAME) if ALIVE_NAME else "MBL User"
 )
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else f"Remember, SPAM can lead to Ban" 
 

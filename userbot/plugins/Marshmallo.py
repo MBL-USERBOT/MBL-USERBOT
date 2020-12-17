@@ -4,7 +4,7 @@ import os
 import sys
 from userbot.utils import mbl_cmd
 import random
-#Marshmellow
+#MBL
 img1=("https://telegra.ph/file/ec11c696c29a55f8c26d8.mp4")
 img2=("https://telegra.ph/file/c840ab181db5e46ef4452.mp4")
 img3=("https://telegra.ph/file/43e6a780c8191c8e45982.mp4")

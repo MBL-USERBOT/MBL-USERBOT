@@ -13,7 +13,7 @@ from uniborg.util import mbl_cmd
 from userbot import AUTONAME
 
 
-DEFAULTUSER = str(AUTONAME) if AUTONAME else "Marshmellow User"
+DEFAULTUSER = str(AUTONAME) if AUTONAME else "MBL User"
 
 @borg.on(mbl_cmd(pattern=r"deploy"))
 

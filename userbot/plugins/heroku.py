@@ -179,7 +179,7 @@ async def _(dyno):
             "logs.txt",
             thumb=thumb,
             reply_to=dyno.id,
-            caption="**Here are Your Logs...**\nPowered By **Marshmellow Userbot**",
+            caption="**Here are Your Logs...**\nPowered By **MBL Userbot**",
         )
         
         await asyncio.sleep(5)

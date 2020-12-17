@@ -13,7 +13,7 @@ DELETE_TIMEOUT = 5
 
 thumb_image_path = "./Resources/PicsArt_12-07-03.35.32.jpg"
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Marshmellow"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MBL"
 
 
 @bot.on(mbl_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))

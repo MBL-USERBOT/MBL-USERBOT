@@ -131,7 +131,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<<Carbonised By **[Marshmellow UserBot](https://t.me/marshmellowuserbot)**>> ",
+         caption="<<Carbonised By **[MBL UserBot](https://t.me/marshmellowuserbot)**>> ",
 
          force_document=True,
 
