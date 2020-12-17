@@ -18,7 +18,7 @@ jobs:
 
         with:
 
-          find: "MARSHMELLOW"
+          find: "Marshmellow"
 
           replace: "MBL"
 
