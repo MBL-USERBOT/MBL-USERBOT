@@ -10,7 +10,7 @@
 ## This Is The Most Powerful And Stable Bot For Your Telegram Account 
 
 ## CREDITS 
- - `MARSHMELLOW USERBOT`
+ - `MBL USERBOT`
  - `FRIDAY USERBOT`
  - `DARK COBRA USERBOT`
  - `PHANTOM USERBOT`

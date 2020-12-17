@@ -12,7 +12,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from userbot import CMD_HELP, bot
 from userbot.utils import mbl_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/Marshmellow098/MARSHMELLOW-USERBOT"
+UPSTREAM_REPO_URL = "https://github.com/Marshmellow098/MBL-USERBOT"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 

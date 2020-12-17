@@ -9,12 +9,12 @@ from telethon import events
 from userbot.utils import mbl_cmd
 from userbot import ALIVE_NAME, ALIVE_PIC
 from telethon.tl.types import ChannelParticipantsAdmins
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MARSHMELLOW USER"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MBL USER"
 
-MARSHMELLOW_VID="https://telegra.ph/file/432b2b4eb57fa7c50c12b.mp4"
+MBL_VID="https://telegra.ph/file/432b2b4eb57fa7c50c12b.mp4"
 
 if ALIVE_PIC is None:
-    ALIVE_PIC=MARSHMELLOW_VID
+    ALIVE_PIC=MBL_VID
 else:
     ALIVE_PIC=ALIVE_PIC
 
@@ -24,7 +24,7 @@ pm_caption += "**✧ IF YOU ARE BAD:** `THIS  IS YOUR DAD`\n\n"
 
 pm_caption += "**✧ ALIVE:** `110% ALIVE SIR`\n\n"
 
-pm_caption += "**✧ CREATER OF MARSHMELLOW  :** `@Mellowxd`\n\n"
+pm_caption += "**✧ CREATER OF MBL  :** `@Mellowxd`\n\n"
 
 pm_caption += "जली को आग🔥 और बूझी को राख🌫 कहते है और जिसका तुम👉 Status पढ़ रहे हो उसे Status_King👑 कहते हैं  \n`"
 
