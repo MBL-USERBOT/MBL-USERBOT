@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "@marshmellowsupport"
+          find: "MARSHMELLOW"
 
-          replace: "@MBL_GANG_SUPORT_GROUP"
+          replace: "MBL"
 
       - name: Create Pull Request
 
@@ -37,4 +37,4 @@ jobs:
           commit_user_name: Mellowxd
 
 
-
+#Sed lifee iz alone after completing this bot i will suside
