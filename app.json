@@ -44,12 +44,12 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ed67b486d36732940275c.jpg",
+      "value": "https://telegra.ph/file/feb11d33ab59c6b29099a.jpg",
       "required": false
     },
      "ALIVE_PIC": {
       "description": "put here any telegraph media link for Media to show with .alive Command",
-      "value": "https://telegra.ph/file/ed67b486d36732940275c.jpg",
+      "value": "https://telegra.ph/file/feb11d33ab59c6b29099a.jpg",
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
