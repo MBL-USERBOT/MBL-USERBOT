@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "mellow_cmd"
+          find: "@marshmellowsupport"
 
-          replace: "mbl_cmd"
+          replace: "@MBL_GANG_SUPORT_GROUP"
 
       - name: Create Pull Request
 
