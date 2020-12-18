@@ -25,8 +25,8 @@ async def kek(mellow):
        "╲┃┈┈┈┈╭━┳━━━━╯\n"
        "╲┣━━━━━━┫\n")
        
-@mbl.on(mbl_cmd(pattern=r"spong"))
-async def dog(bog):
+@mbl.on(mbl_cmd(pattern=r"dog"))
+async def dog(dog):
   await dog.edit(D)
   P = ("┈┏━╮╭━┓┈╭━━━━╮\n"
        "┈┃┏┗┛┓┃╭┫ⓞⓘⓝⓚ┃\n"
