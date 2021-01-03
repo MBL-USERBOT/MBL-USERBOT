@@ -14,7 +14,7 @@ if ALIVE_PIC is None:
 
     ALIVE_PIC=ALIVE_PIC
 
-pm_caption = "**MR IZ 🇲🇧🇱 🇺🇸🇪🇷🇧🇴🇹**\n"
+pm_caption = "**Me IZ 🇲🇧🇱 🇺🇸🇪🇷🇧🇴🇹**\n"
 pm_caption += f"**My Master** => **{DEFAULTUSER}**\n\n"
 pm_caption += f"**{DEFAULTUSER} i am  alive 😁😁😋😋**\n\n"
 pm_caption +=f"**JUST CHILL AND DO WHATEVER YOU WANT TO DO WITH ME😉**\n\n"
